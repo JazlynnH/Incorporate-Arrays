@@ -1,0 +1,30 @@
+<!--Jazlynn Henry-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Add meta data-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Add title for our browser tab-->
+        <title>Pop Quiz!</title>
+        <!--Add link to our CSS file-->
+        <link rel="stylesheet" href="style.css">
+        <!--Setting my content type-->
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!-- Add an audio for background music to make the quiz more intense-->
+        <audio id="backgroundMusic" loop autoplay>
+            <source src="Lobby Music (Original Soundtrack).mp3" type="audio/mp3">
+        </audio>
+        <div id="quiz-container">
+            <div id="question"></div>
+            <div id="options"></div>
+            <div id="score"></div>
+        </div>
+        <!--Add an HTML button to get the next card-->
+        <button id="next" onclick="moveToNextQuestion()">Next Question</button>
+        <!--Link to JavaScript file-->
+        <script src="script.js"></script>
+    </body>
+</html>
